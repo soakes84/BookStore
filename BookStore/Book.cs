@@ -28,5 +28,10 @@ namespace BookStore
 
         public decimal Price { get => price; set => price = value; }
 
+        public decimal CalculateBookStorePrice()
+        {
+            return (this.Price + BookStorePrice.FinalPrice(this));
+        }
+
     }
 }
