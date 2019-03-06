@@ -6,7 +6,7 @@ namespace BookStore
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            
         }
     }
 }
